@@ -1,0 +1,62 @@
+{
+  "Import Rax": {
+    "prefix": "imc",
+    "body": ["import { createElement } from 'rax';"],
+    "description": "Import Rax"
+  },
+  "Import { Component }": {
+    "prefix": "imcc",
+    "body": ["import { createElement, Component } from 'rax';"],
+    "description": "Import { createElement, Component }"
+  },
+  "Import View": {
+    "prefix": "imv",
+    "body": ["import View from 'rax-view';"],
+    "description": "Import View"
+  },
+  "Import Text": {
+    "prefix": "imt",
+    "body": ["import Text from 'rax-text';"],
+    "description": "Import Text"
+  },
+  "Import All About Rax": {
+    "prefix": "ima",
+    "body": [
+      "import { createElement, Component } from 'rax';",
+      "import Text from 'rax-text';",
+      "import View from 'rax-view';"
+    ],
+    "description": "Import All About Rax"
+  },
+  "Class Component": {
+    "prefix": "cc",
+    "body": [
+      "class $1 extends Component {",
+      "\tstate = { $2 }",
+      "\trender() { ",
+      "\t\treturn ( $0 );",
+      "\t}",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Class Component"
+  },
+  "Rax Class Template": {
+    "prefix": "rct",
+    "body": [
+      "import { createElement, Component } from 'rax';",
+      "import Text from 'rax-text';",
+      "import View from 'rax-view';",
+      "\nclass $1 extends Component {",
+      "\tstate = { $2 }",
+      "\trender() { ",
+      "\t\treturn ( $0 );",
+      "\t}",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Rax Class Component"
+  }
+}
