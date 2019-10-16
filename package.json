@@ -2,10 +2,11 @@
 	"name": "rax-snippets",
 	"displayName": "rax-snippets",
 	"description": "rax snippets",
-	"version": "0.0.7",
+	"version": "0.0.9",
 	"engines": {
 		"vscode": "^1.13.0"
 	},
+	"publisher": "yellow2dong",
 	"icon": "icons/rax-icon.png",
 	"categories": [
 		"Snippets"
