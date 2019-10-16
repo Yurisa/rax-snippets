@@ -10,11 +10,10 @@
 		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
 	],
 	"repository": {
     "type": "git",
-    "url": "https://github.com/burkeholland/simple-react-snippets.git"
+    "url": "https://github.com/Yurisa/rax-snippets.git"
   },
 	"main": "./out/extension.js",
 	"contributes": {
