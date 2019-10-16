@@ -58,5 +58,35 @@
       "export default $1;"
     ],
     "description": "Rax Class Component"
+  },
+  "Rax Function Template": {
+    "prefix": "rft",
+    "body": [
+      "import { createElement } from 'rax';",
+      "import Text from 'rax-text';",
+      "import View from 'rax-view';",
+      "\nfunction $1()  {",
+      "\t\treturn ( $0 );",
+      "}",
+      "export default $1;"
+    ],
+    "description": "Rax Function Template"
+  },
+  "Higher Order Component": {
+    "prefix": "hoc",
+    "body": [
+      "function $1($2) {",
+      "\treturn class extends Component {",
+      "\t\tconstructor(props) {",
+      "\t\t\tsuper(props);",
+      "\t\t}",
+      " ",
+      "\t\trender() {",
+      "\t\t\treturn <$2 {...this.props} $0/>",
+      "\t\t}",
+      "\t}",
+      "}"
+    ],
+    "description": "Higher Order Component"
   }
 }
