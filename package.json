@@ -2,7 +2,7 @@
 	"name": "rax-snippets",
 	"displayName": "rax-snippets",
 	"description": "rax snippets",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.13.0"
 	},
@@ -10,12 +10,11 @@
 	"categories": [
 		"Snippets"
 	],
-	"activationEvents": [
-	],
+	"activationEvents": [],
 	"repository": {
-    "type": "git",
-    "url": "https://github.com/Yurisa/rax-snippets.git"
-  },
+		"type": "git",
+		"url": "https://github.com/Yurisa/rax-snippets.git"
+	},
 	"main": "./out/extension.js",
 	"contributes": {
 		"snippets": [
