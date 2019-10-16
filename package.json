@@ -6,6 +6,7 @@
 	"engines": {
 		"vscode": "^1.39.0"
 	},
+	"license": "MIT",
 	"publisher": "yellow2dong",
 	"icon": "icons/rax-icon.png",
 	"categories": [
