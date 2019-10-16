@@ -4,7 +4,7 @@
 	"description": "rax snippets",
 	"version": "0.0.10",
 	"engines": {
-		"vscode": "^1.13.0"
+		"vscode": "^1.39.0"
 	},
 	"publisher": "yellow2dong",
 	"icon": "icons/rax-icon.png",
