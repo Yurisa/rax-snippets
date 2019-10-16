@@ -2,7 +2,7 @@
 	"name": "rax-snippets",
 	"displayName": "rax-snippets",
 	"description": "rax snippets",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"engines": {
 		"vscode": "^1.13.0"
 	},
