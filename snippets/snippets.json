@@ -88,5 +88,15 @@
       "}"
     ],
     "description": "Higher Order Component"
+  },
+  "View": {
+    "prefix": "view",
+    "body": ["<View>$1</View>"],
+    "description": "View"
+  },
+  "Text": {
+    "prefix": "text",
+    "body": ["<Text>$1</Text>"],
+    "description": "Text"
   }
 }
